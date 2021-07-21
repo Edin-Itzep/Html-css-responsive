@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1C;
+}
+
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 70px;
+    box-shadow: -4px -1px 15px 10px rgba(29,29,29,0.63);
+}
+
+span {
+    
+    margin-right: 15px;
+}
+
+.slogan {
+    background-color: white;
+    font-weight: bold;
+    padding: 15px ;
+}
+
+.services {
+    color: gray;
+}
+
+.header__services-list {
+    display: flex;
+    align-items: flex-start
+    
+}
+
+.header__services ul {
+    margin-left: -40px;
+    margin-top: 30px;
+}
+
+.header__services-list li {
+    text-decoration: none;
+    list-style: none;
+} 
+
+.header__services-list a {
+   margin-right: 15px;
+   text-decoration: none;
+
+   
+} 
+li > span {
+    color:gray;
+}
+.home {
+    color: #E3B04B;
+}
+
+.home__second {
+    color: white;
+}
+
+.main {
+    display: block;
+}
+
+.main__section-top {
+    width: 1000px;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    
+}
+.main__section-top img {
+    width: 1000px;
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+
+.main__leyenda {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1) ;
+    width: auto;
+    height: 100px;
+    bottom: 0;
+    
+}
+
+.main__leyenda p {
+    color: #362222;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.main__leyenda_first {
+    font-size: 40px;
+}
+
+.main__section-bottom {
+    width: 1000px;
+    height: 180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: 1;
+    gap: 5px;
+    background-color: white;
+}
+
+.main__textos {
+    padding: 20px;
+}
+
+.texto-primero {
+    font-weight: bolder;
+}
+.texto-segundo {
+    color: black;
+    opacity: 0.4;
+}
+
+.button {
+    background-color: #B22222;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
